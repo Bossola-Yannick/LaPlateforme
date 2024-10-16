@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BloomPetals-contact</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/icon.ico" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="name-company">BloomPetals</h1>
+      <section class="under-title">
+        <nav class="nav-bar">
+          <ul class="nav-bar-button">
+            <li class="nav-bar-tab">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="nav-bar-tab">
+              <a href="./entreprise.html" target="_blank">Entreprise</a>
+            </li>
+            <li class="nav-bar-tab">
+              <a href="./realisations.html" target="_blank">Réalisations</a>
+            </li>
+            <li class="nav-bar-tab">
+              <a href="./contact.html" target="_blank">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <section class="search">
+          <input type="text" class="search-bar" />
+          <div class="icon-search">
+            <img src="./images/search-icon.png" alt="icone de loupe" />
+          </div>
+        </section>
+      </section>
+    </header>
+    <main>
+      <section class="contact-page">
+        <section class="section-left">
+          <img src="./images/fleur-logo.png" alt="" class="picture" />
+        </section>
+        <section class="section-middle">
+          <h2 class="contact-form">Nous Contacter</h2>
+          <form action="submit">
+            <label for="choose"></label>
+            <select name="choose" id="choose" class="select-civil">
+              <option value="">--Choisir votre civilité--</option>
+              <option value="">Monsieur</option>
+              <option value="">Madame</option>
+            </select>
+            <div class="name">
+              <input
+                type="text"
+                placeholder="Nom"
+                class="contact-form-name select-civil"
+              />
+              <input
+                type="text"
+                placeholder="Prénom"
+                class="contact-form-name select-civil"
+                select-civil
+              />
+            </div>
+            <div class="location">
+              <input
+                type="text"
+                placeholder="nom de la rue"
+                class="contact-form-address select-civil"
+                select-civil
+              />
+              <input
+                type="text"
+                placeholder="code postal et ville"
+                class="contact-form-location select-civil"
+                select-civil
+              />
+            </div>
+            <div class="accept-confident">
+              <input type="checkbox" id="confident" name="confident" />
+              <label for="confident"
+                >j'accepte les clauses de confidentialités</label
+              >
+            </div>
+            <input type="submit" value="Envoyer" class="btn-submit" />
+          </form>
+        </section>
+        <section class="section-right">
+          <img src="./images/fleur-logo2.PNG" alt="" class="picture" />
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p class="copyRight">&copy: 2024 BYOrkblan</p>
+    </footer>
+  </body>
+</html>

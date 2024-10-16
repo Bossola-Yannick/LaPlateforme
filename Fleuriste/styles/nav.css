@@ -1,0 +1,65 @@
+.header {
+  background-image: url(../images/fondBody.jpg);
+}
+.name-company {
+  font-size: 3rem;
+  font-family: "Ruge Boogie";
+  font-weight: bold;
+  padding: 1rem;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  backdrop-filter: blur(3px);
+  text-shadow: 2px 3px 2px white;
+}
+.under-title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  padding-right: 1.5rem;
+}
+.nav-bar {
+  width: 60%;
+  padding-left: 1.5rem;
+}
+.nav-bar-button {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar-tab a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.search {
+  display: flex;
+  position: relative;
+  width: 30%;
+}
+.search-bar {
+  width: 100%;
+  margin-right: 2rem;
+  border-radius: 15px;
+  padding: 0.3rem;
+}
+.icon-search {
+  position: absolute;
+  top: 0.35rem;
+  right: 2.6rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.icon-search:hover {
+  cursor: pointer;
+}
+.icon-search img {
+  max-width: 100%;
+  max-height: 100%;
+}
+main {
+  font-family: "Poppins", sans-serif;
+  padding: 0 3rem;
+  background-color: rgb(240, 174, 224);
+  cursor: default;
+}

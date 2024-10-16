@@ -1,0 +1,45 @@
+.why-choose-us {
+  padding: 1.5rem 0.5rem;
+}
+.why-choose-us-title {
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+.why-choose-use-tag {
+  font-weight: 700;
+}
+.why-choose-us-list {
+  text-align: left;
+  padding: 2rem 0;
+}
+.why-choose-us-text {
+  padding-bottom: 0.5rem;
+  line-height: 1.3rem;
+}
+.choose-us {
+  font-weight: 500;
+  font-style: italic;
+}
+.picture-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+.picture-item {
+  width: 28%;
+  height: 15rem;
+  text-align: center;
+}
+.picture {
+  border: 2px solid black;
+  border-radius: 15rem;
+  max-width: 100%;
+  max-height: 100%;
+  /* background-position: center; */
+}
