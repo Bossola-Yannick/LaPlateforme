@@ -19,7 +19,7 @@
   font-size: 1.3rem;
   font-weight: 600;
 }
-.select-civil {
+.form-input {
   width: 95%;
   margin: 0.5rem;
   background-color: rgb(208, 98, 181);
@@ -27,15 +27,19 @@
   text-align: center;
   padding: 0.3rem;
 }
+.select-civil {
+  width: 70%;
+  margin: 0 auto;
+}
 .location,
 .name,
 .accept-confident {
   width: 95%;
 }
-.contact-form-location {
+.form-location {
   margin-top: 0;
 }
-.contact-form-address {
+.form-address {
   margin-bottom: 0;
 }
 .accept-confident {
