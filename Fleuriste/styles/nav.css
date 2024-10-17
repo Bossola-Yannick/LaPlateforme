@@ -62,4 +62,49 @@ main {
   padding: 0 3rem;
   background-color: rgb(240, 174, 224);
   cursor: default;
+  min-height: 77vh;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*----------------MEDIA QUERY-------------------*/
+
+@media screen and (max-width: 600px) {
+  .under-title {
+    flex-direction: column;
+    padding-right: 0rem;
+  }
+  .nav-bar {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+  }
+  .search {
+    width: 60%;
+    margin: 0 auto;
+  }
+  main {
+    padding: 0 0.5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .name-company {
+    width: 90%;
+  }
+  .under-title {
+    flex-direction: column;
+    padding-right: 0rem;
+  }
+  .nav-bar {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+  }
+  .search {
+    width: 60%;
+    margin: 0 auto;
+  }
 }

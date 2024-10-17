@@ -37,3 +37,22 @@
   font-weight: 600;
   padding-bottom: 0.5rem;
 }
+
+/*----------------MEDIA QUERY-------------------*/
+
+@media screen and (max-width: 600px) {
+  .images {
+    padding-bottom: 0.3rem;
+  }
+  .cardImage {
+    height: 7rem;
+  }
+  .service {
+    flex-direction: column;
+    margin: 0;
+  }
+  .serviceItem {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+}
