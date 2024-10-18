@@ -1,0 +1,39 @@
+body {
+  background-color: aquamarine;
+}
+header {
+  background-color: rgba(75, 102, 131, 0.741);
+}
+.nav-bar {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+label,
+#bg-menu {
+  display: none;
+}
+
+/*----------MEDIA QUERIES----------*/
+
+@media screen and (max-width: 991px) {
+  .nav {
+    height: 200px;
+    display: none;
+    justify-content: center;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  label {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  #bg-menu:checked + .nav {
+    display: flex;
+  }
+}
