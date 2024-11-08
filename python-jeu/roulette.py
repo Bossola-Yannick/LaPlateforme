@@ -16,7 +16,7 @@ while bullet_in_gun != 0 and playeur != 0 and billy != 0:
     if bullet_choice in bullet_out:
         print("EH GRINGO me prend pas pour un jambon et fait mieux tourner que ca !")
         print (bullet_out)        
-        bullet_choice = input("choisir un nombre qui n'as pas été déjà pris : ")
+        bullet_choice = int(input("choisir un nombre qui n'as pas été déjà pris : "))
     if bullet_choice == bullet:
         print("BOOM! HAHAHA t'est mort Gringo!")
         playeur -= 1

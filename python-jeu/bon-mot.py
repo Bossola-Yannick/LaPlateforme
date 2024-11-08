@@ -1,14 +1,28 @@
 #  --------------- projet pendu -------------------------
 import random
 
-print("Peut tu trouver le fruit auquel je pense?")
+print("Peut tu trouver le mot auquel je pense?")
 
-ma_liste = ["banane", "pomme", "poire", "fraise", "orange", "kiwi", "prune", "melon", "mandarine"]
+ma_liste = [
+    "banane", "pomme", "poire", "fraise", "orange", "kiwi", "prune", "melon", "mandarine",
+    "abricot", "mangue", "cerise", "nectarine", "framboise", "myrtille", "raisin", "figue", "pêche",
+    "grenade", "pamplemousse", "mandarine", "litchi", "papaye", "cantaloup", "pistache", "amande",
+    "noisette", "noix", "coco", "avocat", "tomate", "carotte", "poivron", "courgette", "concombre",
+    "aubergine", "chou", "brocoli", "haricot", "pois", "radis", "navet", "salade",
+    "épinard", "roquette", "basilic", "menthe", "persil", "thym", "romarin", "ciboulette", "estragon",
+    "origan", "lavande", "sauge", "fenouil", "moutarde", "ail", "oignon", "échalote", "gingembre",
+    "curcuma", "cumin", "paprika", "coriandre", "cardamome", "sel", "poivre", "sucre", "farine",
+    "riz", "pâtes", "pain", "boulangerie", "fromage", "beurre", "lait", "yaourt", "crème", "œuf",
+    "saucisse", "bacon", "poulet", "dinde", "bœuf", "agneau", "poisson", "thon", "saumon", "truite",
+    "langoustine", "crevette", "moules", "calamar", "huître", "escargot", "pizza", "hamburger",
+    "sandwich", "soupe", "salade", "quiche", "tarte", "gâteau", "biscuit", "chocolat", "bonbon", 
+    "glace", "crêpe", "pain au chocolat", "croissant", "brioche", "gaufre", "macaron", "pâtisserie"
+]
 mystery = random.choice(ma_liste)
 
 response = "_" * len(mystery)
 
-life = 1
+life = 10
 
 letter_response = []
 
