@@ -1,6 +1,16 @@
 # --------------------- projet Juste Prix ---------------------------
+# import tkinter pour interface graphique
+from tkinter import *
 import random
 print("Trouverez vous le juste prix")
+
+# mise en place de la fenetre 
+fenetre = Tk()
+fenetre.geometry('800x400')
+fenetre.title('Juste Prix')
+fenetre['bg'] = 'blue'
+# pour ne pas pouvoir modifier la taille de la fenetre
+# => fenetre.resizable(height=False,width=False)
 
 mystery_number = random.randint(1, 100)
 
