@@ -102,3 +102,4 @@ while len(nombre) <= 5:
 print("les nombres choisis sont : ", nombre)    
 print("les nombres", pair, "son pairs !" )
 print("les nombres", impair, "son impairs !" )
+
