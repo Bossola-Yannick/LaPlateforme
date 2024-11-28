@@ -130,11 +130,11 @@ def moyenne(notes):
     moyenne = total / len(notes)
     if 15 <= moyenne <= 20 :
         print(f"Trés bon élève, moyenne : {moyenne}")
-    elif 11 <= moyenne <= 14 :
+    elif 11 <= moyenne < 15 :
         print(f"Bon élève, moyenne : {moyenne}")
-    elif 8 <= moyenne <= 10 :
+    elif 8 <= moyenne < 11 :
         print(f"Elève moyen, moyenne : {moyenne}")
-    elif 0 <= moyenne <= 7 :
+    elif 0 <= moyenne < 8 :
         print(f"T'est Nul à chier !, moyenne : {moyenne}")
 
 moyenne(notes)
