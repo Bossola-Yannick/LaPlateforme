@@ -187,7 +187,7 @@ def inverso(name):
     while len(back_name) != len(name):
         for i in name[::-1]:
             back_name.append(i)
-    reverse_name = ''.join(back_name) 
+    reverse_name = ''.join(back_name)
     print(reverse_name)
 
 inverso(name)
